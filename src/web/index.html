@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>LyricLens</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; margin: 30px; max-width: 880px; }
+    textarea { width: 100%; }
+    .row { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>LyricLens</h2>
+  <p>Paste lyrics or a vibe. Click Generate to see an analysis and a 4-line rewrite.</p>
+  <form method="post" action="/rewrite">
+    <div class="row">
+      <textarea name="text" rows="6" placeholder="Write something about a trumpet solo over a rainy street..."></textarea>
+    </div>
+    <div class="row">
+      <button type="submit">Generate</button>
+    </div>
+  </form>
+  <hr/>
+  <p>API endpoints: <code>POST /analyze</code>, <code>POST /rewrite</code>, <code>GET /health</code></p>
+</body>
+</html>
