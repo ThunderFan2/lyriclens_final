@@ -1,0 +1,47 @@
+# -----------------------------
+# Python & Flask Project Ignore
+# -----------------------------
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+*.DS_Store
+._*
+
+# Python installer cache
+pip-wheel-metadata/
+
+# Jupyter (not used, but safe)
+.ipynb_checkpoints/
+
+# Docker
+*.sif
+*.img
+*.tar
