@@ -107,6 +107,17 @@ Flask was selected as the core framework because it provides a minimal, flexible
   - number of rewrite requests  
 - Logging is performed on analyze and rewrite events to aid debugging.
 
+### **Continuous Integration (CI)**
+A GitHub Actions workflow (`.github/workflows/ci.yml`) automatically runs on each
+push to the `main` branch. This workflow:
+
+- Installs project dependencies  
+- Performs a Python smoke test by importing the Flask app  
+- Builds the Docker image to ensure container reproducibility  
+
+This validates that the application builds cleanly and satisfies the CI portion
+of the Observability/CI extra credit requirement.
+
 ---
 
 # 5) Results & Evaluation
