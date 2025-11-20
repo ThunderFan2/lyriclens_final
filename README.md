@@ -158,6 +158,7 @@ of the Observability/CI extra credit requirement.
 - Introduce a database for logging requests or storing user sessions.
 - Expand observability with Prometheus-compatible metrics.
 - Write automated unit tests for analysis and rewrite logic.
+- Add  local AI text generation via an Ollama-served LLM (e.g., Llama3, Mistral) to enable richer rewrites and offline processing.
 
 ### **Refactors**
 - Refactor repeated code in /analyze and /rewrite into a shared utility function.
