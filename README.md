@@ -76,6 +76,9 @@ curl http://localhost:8000/metrics
 
 Analyze Example
 curl -X POST http://localhost:8000/analyze -d "text=hello"
+
+Once running, the service is available at:
+http://localhost:8000
 ```
 
 # 4) Design Decisions
